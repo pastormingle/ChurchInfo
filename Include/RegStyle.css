@@ -1,0 +1,90 @@
+/* YUI 3 CSS reset */
+
+td.WithBorder
+{
+	border-width:3px;
+	border-color:#00ff00; 
+	padding: 10px;
+	background-color: #88ff88;
+}
+
+td.RegLabelColumn
+{
+	text-align: right;
+	font-weight: bold;
+	background: #F2EEDB;
+	border: solid 1px black;
+	padding: 4px;
+	vertical-align: top;
+	width: 20%;
+}
+
+td.RegTextColumn
+{
+	border-top: solid 1px #eaeaea;
+	padding: 4px;
+	vertical-align: top;
+	width: 80%;
+	text-align: left;
+}
+
+input.RegEnterText
+{
+	width: 100%;
+	text-align: left;
+}
+
+td.RegError
+{
+	color: #ff0000;
+}
+
+.regHomeButton {
+	
+	background-color:#2dabf9;
+	-moz-border-radius:7px;
+	-webkit-border-radius:7px;
+	border-radius:7px;
+	border:1px solid #0b0e07;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	padding:6px 15px;
+	text-decoration:none;
+	
+}
+.regHomeButton:hover {
+	background-color:#2688fa;
+}
+.regHomeButton:active {
+	position:relative;
+	top:1px;
+}
+
+.regEditButton {
+	
+	background-color:#2dabf9;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	border:1px solid #0b0e07;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:12px;
+	font-weight:bold;
+	padding:4px 4px;
+	text-decoration:none;
+	
+}
+.regEditButton:hover {
+	background-color:#2688fa;
+}
+.regEditButton:active {
+	position:relative;
+	top:1px;
+}
